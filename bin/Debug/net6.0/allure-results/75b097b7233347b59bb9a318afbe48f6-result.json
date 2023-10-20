@@ -1,0 +1,169 @@
+{
+  "uuid": "c9854b60ce954abdb40afa9b3d0d4f87",
+  "historyId": "Verify the login",
+  "fullName": "Verify the login",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "RAZIB-R"
+    },
+    {
+      "name": "feature",
+      "value": "Verify Tumblr works properly"
+    }
+  ],
+  "links": [],
+  "name": "Verify the login",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  Check login button is available in blow",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1697774862204,
+      "stop": 1697774865884
+    },
+    {
+      "name": "When  Click On Login button",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1697774865886,
+      "stop": 1697774872007
+    },
+    {
+      "name": "Then  User show the contnu with mail",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1697774872007,
+      "stop": 1697774872019
+    },
+    {
+      "name": "And  Click on continu with Email button",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1697774872019,
+      "stop": 1697774872087
+    },
+    {
+      "name": "Then  Enter Email in Email text field",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1697774872087,
+      "stop": 1697774872287
+    },
+    {
+      "name": "When  Click on next button",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1697774872287,
+      "stop": 1697774875377
+    },
+    {
+      "name": "Then  Input The Password in Password field",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1697774875377,
+      "stop": 1697774875463
+    },
+    {
+      "name": "When  Click on Log in button",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1697774875463,
+      "stop": 1697774878541
+    },
+    {
+      "name": "Then  Show the Home Page is available in Display",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1697774878541,
+      "stop": 1697774881263
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1697774862188,
+  "stop": 1697774881269
+}

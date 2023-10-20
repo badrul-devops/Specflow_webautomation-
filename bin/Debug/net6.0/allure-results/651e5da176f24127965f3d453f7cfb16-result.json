@@ -1,0 +1,171 @@
+{
+  "uuid": "eab39c1dee2241a197abca547bb3be81",
+  "historyId": "Verify the login",
+  "fullName": "Verify the login",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "RAZIB-R"
+    },
+    {
+      "name": "feature",
+      "value": "Verify Tumblr works properly"
+    }
+  ],
+  "links": [],
+  "name": "Verify the login",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "element not interactable\n  (Session info: chrome=118.0.5993.89)",
+    "trace": "OpenQA.Selenium.ElementNotInteractableException: element not interactable\n  (Session info: chrome=118.0.5993.89)\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Click()\r\n   at Tumblr.StepDefinitions.Login.WhenClickOnLogInButton() in D:\\TvHut-master\\TvHut-master\\StepDefinitions\\Login.cs:line 66\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  Check login button is available in blow",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1697735303830,
+      "stop": 1697735314800
+    },
+    {
+      "name": "When  Click On Login button",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1697735314801,
+      "stop": 1697735320942
+    },
+    {
+      "name": "Then  User show the contnu with mail",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1697735320942,
+      "stop": 1697735320961
+    },
+    {
+      "name": "And  Click on continu with Email button",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1697735320961,
+      "stop": 1697735321048
+    },
+    {
+      "name": "Then  Enter Email in Email text field",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1697735321048,
+      "stop": 1697735321255
+    },
+    {
+      "name": "When  Click on next button",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1697735321255,
+      "stop": 1697735321357
+    },
+    {
+      "name": "Then  Input The Password in Password field",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1697735321357,
+      "stop": 1697735321498
+    },
+    {
+      "name": "When  Click on Log in button",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1697735321498,
+      "stop": 1697735321729
+    },
+    {
+      "name": "Then  Show the Home Page is available in Display",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1697735321738,
+      "stop": 1697735321739
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1697735303822,
+  "stop": 1697735321751
+}

@@ -113,6 +113,7 @@ namespace Tumblr.StepDefinitions
         public void WhenClickOnExploreButton()
         {
             driver.FindElement(By.XPath("//span[normalize-space()='Explore']")).Click();
+            Thread.Sleep(2000);
         }
 
         [Then(@"Show the explore Page is available in Display")]
@@ -196,8 +197,26 @@ namespace Tumblr.StepDefinitions
             Assert.IsTrue(mesage.Displayed);
             Thread.Sleep(2000);
             driver.Quit();
+            
+        }
+       
+        
+        [When(@"Click on The like  button")]
+        public void WhenClickOnTheLikeButton()
+        {
+            
+            driver.FindElement(By.XPath("//span[normalize-space()='Likes']")).Click();
         }
 
+        [Then(@"Show the like page available in display")]
+         public void ThenShowTheLikePageAvailableInDisplay()
+         {
+            IWebElement mesage = driver.FindElement(By.XPath("//div[@class='lSyOz t8f_N']"));
+            Assert.IsTrue(mesage.Displayed);
+            Thread.Sleep(2000);
+            driver.Quit();
+         }
+        
 
     }
 }

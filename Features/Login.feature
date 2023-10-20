@@ -78,3 +78,17 @@ Feature: Verify Tumblr works properly
           Given Check account is available in site
           When  Click on account button
           Then Show the account sub menu is available in Display
+
+ Scenario:check Tumblr Like button works properly
+         Given Check login button is available in blow
+          When Click On Login button
+          Then User show the contnu with mail
+          And Click on continu with Email button
+          Then Enter Email in Email text field
+          When Click on next button
+          Then Input The Password in Password field
+          When Click on Log in button
+          Given Check account is available in site
+          When  Click on account button
+          When Click on The like  button
+          Then  Show the like page available in display

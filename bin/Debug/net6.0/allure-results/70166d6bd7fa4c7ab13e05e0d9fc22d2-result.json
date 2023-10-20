@@ -1,0 +1,177 @@
+{
+  "uuid": "d8df3624922e47f098af1924bd7bb2af",
+  "historyId": "Verify the login",
+  "fullName": "Verify the login",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "RAZIB-R"
+    },
+    {
+      "name": "feature",
+      "value": "Verify Tumblr works properly"
+    }
+  ],
+  "links": [],
+  "name": "Verify the login",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  Check login button is available in blow",
+      "status": "none",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "running",
+      "steps": [
+        {
+          "name": "When  Click On Login button",
+          "status": "none",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "running",
+          "steps": [
+            {
+              "name": "Then  User show the contnu with mail",
+              "status": "none",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "running",
+              "steps": [
+                {
+                  "name": "And  Click on continu with Email button",
+                  "status": "none",
+                  "statusDetails": {
+                    "known": false,
+                    "muted": false,
+                    "flaky": false
+                  },
+                  "stage": "running",
+                  "steps": [
+                    {
+                      "name": "Then  Enter Email in Email text field",
+                      "status": "none",
+                      "statusDetails": {
+                        "known": false,
+                        "muted": false,
+                        "flaky": false
+                      },
+                      "stage": "running",
+                      "steps": [
+                        {
+                          "name": "When  Click on next button",
+                          "status": "none",
+                          "statusDetails": {
+                            "known": false,
+                            "muted": false,
+                            "flaky": false
+                          },
+                          "stage": "running",
+                          "steps": [
+                            {
+                              "name": "Then  Input The Password in Password field",
+                              "status": "none",
+                              "statusDetails": {
+                                "known": false,
+                                "muted": false,
+                                "flaky": false
+                              },
+                              "stage": "running",
+                              "steps": [
+                                {
+                                  "name": "When  Click on Log in button",
+                                  "status": "none",
+                                  "statusDetails": {
+                                    "known": false,
+                                    "muted": false,
+                                    "flaky": false
+                                  },
+                                  "stage": "running",
+                                  "steps": [
+                                    {
+                                      "name": "Then  Show the Home Page is available in Display",
+                                      "status": "skipped",
+                                      "statusDetails": {
+                                        "known": false,
+                                        "muted": false,
+                                        "flaky": false
+                                      },
+                                      "stage": "finished",
+                                      "steps": [],
+                                      "attachments": [],
+                                      "parameters": [],
+                                      "start": 1697806230260,
+                                      "stop": 1697806230262
+                                    }
+                                  ],
+                                  "attachments": [],
+                                  "parameters": [],
+                                  "start": 1697806230260,
+                                  "stop": 0
+                                }
+                              ],
+                              "attachments": [],
+                              "parameters": [],
+                              "start": 1697806230260,
+                              "stop": 0
+                            }
+                          ],
+                          "attachments": [],
+                          "parameters": [],
+                          "start": 1697806230260,
+                          "stop": 0
+                        }
+                      ],
+                      "attachments": [],
+                      "parameters": [],
+                      "start": 1697806230260,
+                      "stop": 0
+                    }
+                  ],
+                  "attachments": [],
+                  "parameters": [],
+                  "start": 1697806230260,
+                  "stop": 0
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "start": 1697806230260,
+              "stop": 0
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1697806230260,
+          "stop": 0
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1697806230253,
+      "stop": 0
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1697806230245,
+  "stop": 1697806230284
+}

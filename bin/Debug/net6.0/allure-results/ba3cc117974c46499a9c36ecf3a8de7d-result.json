@@ -1,0 +1,240 @@
+{
+  "uuid": "4eebc70486e84692b3a822cfe4616569",
+  "historyId": "check Tumblr Account works properly",
+  "fullName": "check Tumblr Account works properly",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "RAZIB-R"
+    },
+    {
+      "name": "feature",
+      "value": "Verify account option works properly"
+    }
+  ],
+  "links": [],
+  "name": "check Tumblr Account works properly",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  Check login button is available in blow",
+      "status": "none",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "running",
+      "steps": [
+        {
+          "name": "When  Click On Login button",
+          "status": "none",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "running",
+          "steps": [
+            {
+              "name": "Then  User show the contnu with mail",
+              "status": "none",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "running",
+              "steps": [
+                {
+                  "name": "And  Click on continu with Email button",
+                  "status": "none",
+                  "statusDetails": {
+                    "known": false,
+                    "muted": false,
+                    "flaky": false
+                  },
+                  "stage": "running",
+                  "steps": [
+                    {
+                      "name": "Then  Enter Email in Email text field",
+                      "status": "none",
+                      "statusDetails": {
+                        "known": false,
+                        "muted": false,
+                        "flaky": false
+                      },
+                      "stage": "running",
+                      "steps": [
+                        {
+                          "name": "When  Click on next button",
+                          "status": "none",
+                          "statusDetails": {
+                            "known": false,
+                            "muted": false,
+                            "flaky": false
+                          },
+                          "stage": "running",
+                          "steps": [
+                            {
+                              "name": "Then  Input The Password in Password field",
+                              "status": "none",
+                              "statusDetails": {
+                                "known": false,
+                                "muted": false,
+                                "flaky": false
+                              },
+                              "stage": "running",
+                              "steps": [
+                                {
+                                  "name": "When  Click on Log in button",
+                                  "status": "none",
+                                  "statusDetails": {
+                                    "known": false,
+                                    "muted": false,
+                                    "flaky": false
+                                  },
+                                  "stage": "running",
+                                  "steps": [
+                                    {
+                                      "name": "Given  Check account is available in site",
+                                      "status": "none",
+                                      "statusDetails": {
+                                        "known": false,
+                                        "muted": false,
+                                        "flaky": false
+                                      },
+                                      "stage": "running",
+                                      "steps": [
+                                        {
+                                          "name": "When  Click on account button",
+                                          "status": "none",
+                                          "statusDetails": {
+                                            "known": false,
+                                            "muted": false,
+                                            "flaky": false
+                                          },
+                                          "stage": "running",
+                                          "steps": [
+                                            {
+                                              "name": "Then  Show the account sub menu is available in Display",
+                                              "status": "none",
+                                              "statusDetails": {
+                                                "known": false,
+                                                "muted": false,
+                                                "flaky": false
+                                              },
+                                              "stage": "running",
+                                              "steps": [
+                                                {
+                                                  "name": "When  Click on The like  button",
+                                                  "status": "skipped",
+                                                  "statusDetails": {
+                                                    "known": false,
+                                                    "muted": false,
+                                                    "flaky": false
+                                                  },
+                                                  "stage": "finished",
+                                                  "steps": [],
+                                                  "attachments": [],
+                                                  "parameters": [],
+                                                  "start": 1697806245759,
+                                                  "stop": 1697806245760
+                                                },
+                                                {
+                                                  "name": "Then  Show the like page available in display",
+                                                  "status": "skipped",
+                                                  "statusDetails": {
+                                                    "known": false,
+                                                    "muted": false,
+                                                    "flaky": false
+                                                  },
+                                                  "stage": "finished",
+                                                  "steps": [],
+                                                  "attachments": [],
+                                                  "parameters": [],
+                                                  "start": 1697806245762,
+                                                  "stop": 1697806245762
+                                                }
+                                              ],
+                                              "attachments": [],
+                                              "parameters": [],
+                                              "start": 1697806245759,
+                                              "stop": 0
+                                            }
+                                          ],
+                                          "attachments": [],
+                                          "parameters": [],
+                                          "start": 1697806245759,
+                                          "stop": 0
+                                        }
+                                      ],
+                                      "attachments": [],
+                                      "parameters": [],
+                                      "start": 1697806245759,
+                                      "stop": 0
+                                    }
+                                  ],
+                                  "attachments": [],
+                                  "parameters": [],
+                                  "start": 1697806245759,
+                                  "stop": 0
+                                }
+                              ],
+                              "attachments": [],
+                              "parameters": [],
+                              "start": 1697806245759,
+                              "stop": 0
+                            }
+                          ],
+                          "attachments": [],
+                          "parameters": [],
+                          "start": 1697806245759,
+                          "stop": 0
+                        }
+                      ],
+                      "attachments": [],
+                      "parameters": [],
+                      "start": 1697806245759,
+                      "stop": 0
+                    }
+                  ],
+                  "attachments": [],
+                  "parameters": [],
+                  "start": 1697806245759,
+                  "stop": 0
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "start": 1697806245758,
+              "stop": 0
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1697806245758,
+          "stop": 0
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1697806245752,
+      "stop": 0
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1697806245745,
+  "stop": 1697806245781
+}
