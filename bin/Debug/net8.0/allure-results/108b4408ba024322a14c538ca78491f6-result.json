@@ -1,0 +1,201 @@
+{
+  "uuid": "f5f137cf446e47fc9f98adfc1ddee5f3",
+  "historyId": "check Tumblr Account works properly",
+  "fullName": "check Tumblr Account works properly",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "QUPS-Q8"
+    },
+    {
+      "name": "feature",
+      "value": "Verify Tumblr works properly"
+    }
+  ],
+  "links": [],
+  "name": "check Tumblr Account works properly",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=120.0.6099.225)",
+    "trace": "OpenQA.Selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=120.0.6099.225)\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.get_Url()\r\n   at Tumblr.StepDefinitions.Login.ThenUserShowTheContnuWithMail() in E:\\Badrul\\visula-project\\StepDefinitions\\Login.cs:line 36\r\n   at InvokeStub_Action`1.Invoke(Object, Span`1)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  Check login button is available in blow",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1706681737616,
+      "stop": 1706681742507
+    },
+    {
+      "name": "When  Click On Login button",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1706681742509,
+      "stop": 1706681748657
+    },
+    {
+      "name": "Then  User show the contnu with mail",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1706681748658,
+      "stop": 1706681748707
+    },
+    {
+      "name": "And  Click on continu with Email button",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1706681748708,
+      "stop": 1706681748709
+    },
+    {
+      "name": "Then  Enter Email in Email text field",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1706681748711,
+      "stop": 1706681748711
+    },
+    {
+      "name": "When  Click on next button",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1706681748711,
+      "stop": 1706681748711
+    },
+    {
+      "name": "Then  Input The Password in Password field",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1706681748711,
+      "stop": 1706681748711
+    },
+    {
+      "name": "When  Click on Log in button",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1706681748711,
+      "stop": 1706681748711
+    },
+    {
+      "name": "Given  Check account is available in site",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1706681748711,
+      "stop": 1706681748711
+    },
+    {
+      "name": "When  Click on account button",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1706681748711,
+      "stop": 1706681748711
+    },
+    {
+      "name": "Then  Show the account sub menu is available in Display",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1706681748711,
+      "stop": 1706681748711
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1706681737502,
+  "stop": 1706681748717
+}

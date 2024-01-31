@@ -1,0 +1,201 @@
+{
+  "uuid": "34b3c00e2dd445038fc4435f8149ed4a",
+  "historyId": "check Tumblr Account works properly",
+  "fullName": "check Tumblr Account works properly",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "QUPS-Q8"
+    },
+    {
+      "name": "feature",
+      "value": "Verify Tumblr works properly"
+    }
+  ],
+  "links": [],
+  "name": "check Tumblr Account works properly",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected: True\r\n  But was:  False\r\n",
+    "trace": "NUnit.Framework.AssertionException:   Expected: True\r\n  But was:  False\r\n\r\n   at NUnit.Framework.Assert.ReportFailure(String message)\r\n   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)\r\n   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)\r\n   at NUnit.Framework.Assert.IsTrue(Boolean condition)\r\n   at Tumblr.StepDefinitions.Login.ThenUserShowTheContnuWithMail() in E:\\Badrul\\visula-project\\StepDefinitions\\Login.cs:line 36\r\n   at InvokeStub_Action`1.Invoke(Object, Span`1)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  Check login button is available in blow",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1706681786686,
+      "stop": 1706681789848
+    },
+    {
+      "name": "When  Click On Login button",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1706681789849,
+      "stop": 1706681795973
+    },
+    {
+      "name": "Then  User show the contnu with mail",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1706681795973,
+      "stop": 1706681796013
+    },
+    {
+      "name": "And  Click on continu with Email button",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1706681796014,
+      "stop": 1706681796015
+    },
+    {
+      "name": "Then  Enter Email in Email text field",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1706681796016,
+      "stop": 1706681796016
+    },
+    {
+      "name": "When  Click on next button",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1706681796016,
+      "stop": 1706681796016
+    },
+    {
+      "name": "Then  Input The Password in Password field",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1706681796016,
+      "stop": 1706681796016
+    },
+    {
+      "name": "When  Click on Log in button",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1706681796016,
+      "stop": 1706681796016
+    },
+    {
+      "name": "Given  Check account is available in site",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1706681796016,
+      "stop": 1706681796016
+    },
+    {
+      "name": "When  Click on account button",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1706681796016,
+      "stop": 1706681796016
+    },
+    {
+      "name": "Then  Show the account sub menu is available in Display",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1706681796016,
+      "stop": 1706681796016
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1706681786683,
+  "stop": 1706681796021
+}

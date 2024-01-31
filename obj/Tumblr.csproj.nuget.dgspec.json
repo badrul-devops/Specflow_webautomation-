@@ -1,32 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "D:\\TvHut-master\\TvHut-master\\Tumblr.csproj": {}
+    "E:\\Badrul\\visula-project\\Tumblr.csproj": {}
   },
   "projects": {
-    "D:\\TvHut-master\\TvHut-master\\Tumblr.csproj": {
+    "E:\\Badrul\\visula-project\\Tumblr.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\TvHut-master\\TvHut-master\\Tumblr.csproj",
+        "projectUniqueName": "E:\\Badrul\\visula-project\\Tumblr.csproj",
         "projectName": "Tumblr",
-        "projectPath": "D:\\TvHut-master\\TvHut-master\\Tumblr.csproj",
-        "packagesPath": "C:\\Users\\razib\\.nuget\\packages\\",
-        "outputPath": "D:\\TvHut-master\\TvHut-master\\obj\\",
+        "projectPath": "E:\\Badrul\\visula-project\\Tumblr.csproj",
+        "packagesPath": "C:\\Users\\CRS\\.nuget\\packages\\",
+        "outputPath": "E:\\Badrul\\visula-project\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\razib\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\CRS\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -37,8 +37,8 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Allure.Net.Commons": {
               "target": "Package",
@@ -109,7 +109,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

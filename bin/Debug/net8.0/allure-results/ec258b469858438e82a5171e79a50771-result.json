@@ -1,0 +1,201 @@
+{
+  "uuid": "a6db336ec3024789a61c25be5ae0f529",
+  "historyId": "check Tumblr explore works properly",
+  "fullName": "check Tumblr explore works properly",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "QUPS-Q8"
+    },
+    {
+      "name": "feature",
+      "value": "Verify Tumblr works properly"
+    }
+  ],
+  "links": [],
+  "name": "check Tumblr explore works properly",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=120.0.6099.225)",
+    "trace": "OpenQA.Selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=120.0.6099.225)\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at Tumblr.StepDefinitions.Login.WhenClickOnLoginButton() in E:\\Badrul\\visula-project\\StepDefinitions\\Login.cs:line 29\r\n   at InvokeStub_Action`1.Invoke(Object, Span`1)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  Check login button is available in blow",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1706681751264,
+      "stop": 1706681753552
+    },
+    {
+      "name": "When  Click On Login button",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1706681753552,
+      "stop": 1706681753554
+    },
+    {
+      "name": "Then  User show the contnu with mail",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1706681753554,
+      "stop": 1706681753554
+    },
+    {
+      "name": "And  Click on continu with Email button",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1706681753554,
+      "stop": 1706681753554
+    },
+    {
+      "name": "Then  Enter Email in Email text field",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1706681753554,
+      "stop": 1706681753554
+    },
+    {
+      "name": "When  Click on next button",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1706681753554,
+      "stop": 1706681753554
+    },
+    {
+      "name": "Then  Input The Password in Password field",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1706681753555,
+      "stop": 1706681753555
+    },
+    {
+      "name": "When  Click on Log in button",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1706681753555,
+      "stop": 1706681753555
+    },
+    {
+      "name": "Given  Check explore is available in site",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1706681753555,
+      "stop": 1706681753555
+    },
+    {
+      "name": "When  Click on explore button",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1706681753555,
+      "stop": 1706681753555
+    },
+    {
+      "name": "Then  Show the explore Page is available in Display",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1706681753555,
+      "stop": 1706681753555
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1706681751264,
+  "stop": 1706681753555
+}
