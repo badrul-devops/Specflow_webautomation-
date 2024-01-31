@@ -489,7 +489,7 @@
         "runtime": {
           "lib/net7.0/MonoMod.ILHelpers.dll": {
             "assemblyVersion": "1.0.0.0",
-            "fileVersion": "0.0.0.0"
+            "fileVersion": "1.0.0.0"
           }
         }
       },

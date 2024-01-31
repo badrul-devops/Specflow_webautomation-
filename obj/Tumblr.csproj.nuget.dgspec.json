@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Badrul\\visula-project\\Tumblr.csproj": {}
+    "/home/qups/Spack/Tumblr.csproj": {}
   },
   "projects": {
-    "E:\\Badrul\\visula-project\\Tumblr.csproj": {
+    "/home/qups/Spack/Tumblr.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Badrul\\visula-project\\Tumblr.csproj",
+        "projectUniqueName": "/home/qups/Spack/Tumblr.csproj",
         "projectName": "Tumblr",
-        "projectPath": "E:\\Badrul\\visula-project\\Tumblr.csproj",
-        "packagesPath": "C:\\Users\\CRS\\.nuget\\packages\\",
-        "outputPath": "E:\\Badrul\\visula-project\\obj\\",
+        "projectPath": "/home/qups/Spack/Tumblr.csproj",
+        "packagesPath": "/root/.nuget/packages/",
+        "outputPath": "/home/qups/Spack/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\CRS\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/root/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -109,7 +107,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/233/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
